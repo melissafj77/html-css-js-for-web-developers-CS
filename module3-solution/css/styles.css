@@ -63,13 +63,21 @@ body {
 
 #item-container{
   background-color: #668585;
-  width: 85%;
+  width: 100%;
   color: #E5D198;
+  margin-bottom: 20px;
 }
-#item{
+#item, #sushi, #beef{
   margin-bottom: 1.5em;
 }
-
+#item-container a:link, #item-container a:visited{
+  padding-top: 1.5em;
+  color: #333;
+}
+#item-container a:hover{
+  text-decoration: none;
+  color: #C14543;
+}
 /* END HOME PAGE */
 
 
